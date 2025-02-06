@@ -1,0 +1,9 @@
+#N canvas 744 234 450 300 12;
+#X obj 44 118 readsf~ 2;
+#X obj 60 206 dac~;
+#X obj 103 93 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X msg 41 64 open thelastperson.wav;
+#X connect 0 0 1 0;
+#X connect 0 1 1 1;
+#X connect 2 0 0 0;
+#X connect 3 0 0 0;
